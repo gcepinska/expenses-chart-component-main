@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="queries.css" />
     <script defer src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.2/dist/chart.min.js"></script>
 
     <title>Frontend Mentor | Expenses chart component</title>
   </head>
@@ -39,7 +40,7 @@
 
     <div class="section-main">
       <p class="main-header">Spending - Last 7 days</p>
-      <p id="myDiv" class="chart"></p>
+      <canvas id="myChart" class="chart"></canvas>
       <div class="total">
         <div class="left-side">
           <p class="lighter-color">Total this month</p>

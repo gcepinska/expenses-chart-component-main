@@ -88,9 +88,11 @@ body {
 }
 
 .chart {
-  padding: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
   border-bottom: solid 2px hsl(27, 66%, 92%);
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
+  cursor: pointer;
 }
 
 .total {
